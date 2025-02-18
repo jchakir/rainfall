@@ -89,7 +89,7 @@ First look, we can see that `strcpy` vulnerable to buffer overflow, which is cop
 
 Second, we have two allocated memory blocks using `malloc`, the first one `buff` with size **64**, second one is `func` with **4** of size.
 
-the blocks are allocated in memory in alligned way like bellow:
+the blocks are allocated in memory in aligned way like below:
 
 ```
              H          e              a          p
